@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #EFF9BF;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A7E9AF;
+    padding: 10px;
+    height: 75px;
+    align-items: center;
+    
+}
+
+.Ing{
+
+    font-size:large;
+    position: fixed;
+    right: 100px;
+    top: 30px;
+}
+
+.Reg{
+    
+    font-size:large;
+    position: fixed;
+    right: 35px; 
+    top: 30px;
+}
+
+.BARRA{
+
+    position:fixed;
+    font-size:x-large;
+    top: 45px;
+    left: 10px;
+    word-spacing: 120px;
+
+}
+
+ul{
+
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+}
+
+.TITULO{
+
+    height: 50px;
+    width: 350px;
+    background: linear-gradient(#A7E9AF,#8beccf,#84B6F4);
+}
+
+.CUADRO{
+    height: 100px;
+    width: 350px;
+    background: linear-gradient(#A7E9AF,#8beccf,#84B6F4);
+}
+
+
+.SUBTITULO{
+    font-size: xx-large;
+    height: 80px;
+    width: 350px;
+    background: linear-gradient(#A7E9AF,#8beccf,#84B6F4);
+}
+
+.CHECK{
+    font-size:x-large;
+}
