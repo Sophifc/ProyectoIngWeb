@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    height: 100vh; /*Para colocarlo en el medio*/
+    justify-content: center;
+    align-items: center;
+    background-color: #A7E9AF;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+.containers{
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.containers .titulo{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    position: relative;
+}
+
+/* Generar la barra debajo del titulo */
+.containers .titulo::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 670px;
+    background-color: #84B6F4;
+}
+
+/* La ubicacion de los recuadros */
+.containers form .user-detalles{
+    display: flex; /* Hace que se vayan hacia al costado los recuadros*/
+    flex-wrap: wrap; /* Baja los recuadros */
+    justify-content: space-between; /* Da espacio entre los recuadros*/
+    margin: 20px 100px 12px 100px;  /*Generacion de un margen*/
+}  
+
+form .user-detalles .caja{
+    margin-bottom: 20px; /*Margen hacia abajo*/ 
+}
+
+.user-detalles .caja input{
+    height: 45px; /*Ancho de los recuadros*/
+    width: 100%; /*Largo de los recuadros*/
+    border-radius: 5px; /*Para hacerlos menos rectangular*/
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.user-detalles .caja .detalles{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form .boton{
+    height: 45px;
+    margin: 25px;
+}
+
+form .boton input{
+    height: 100%;
+    width: 100%;
+    color:snow;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #84B6F4;
+    border-radius: 10px;
+}
