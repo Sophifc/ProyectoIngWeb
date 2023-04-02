@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background: linear-gradient(#0050B2,#585bf0,#84B6F4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A7E9AF;
+    padding: 10px;
+    height: 75px;
+    align-items: center;
+}
+
+.Ing{
+    font-size: large;
+    position: fixed;
+    right: 100px;
+    top: 30px;
+}
+
+.Reg{
+    font-size: large;
+    position: fixed;
+    right: 35px;
+    top: 30px;
+}
+
+.Barra{
+    position: fixed;
+    font-size: x-large;
+    top: 45px;
+    left: 10px;
+    word-spacing: 120px;
+}
+
+ul{
+    list-style: none;
+}
+
+.Titulo{
+    position: fixed;
+    left: 50px;
+    top: 70px;
+    color: antiquewhite;
+    font-style: oblique;
+}
+
+.Cuadro1{
+    position: absolute;
+    width: 649px;
+    height: 400px;
+    left: 39px;
+    top: 160px;
+    background: linear-gradient(180deg, #D2E575 0%, #EFF9BF 100%);
+}
+
+.imagen1{
+    position: absolute;
+    width: 603px;
+    height: 265px;
+    left: 22px;
+    top: 220px;
+    border-radius: 89px;
+}
+
+.nanimales{
+    position: absolute;
+    width: 438px;
+    height: 41px;
+    left: 100px;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+}
+
+.Cuadro2{
+    position: absolute;
+    width: 649px;
+    height: 400px;
+    left: 850px;
+    top: 160px;
+    background: linear-gradient(180deg, #D2E575 0%, #EFF9BF 100%);
+}
+
+.imagen2{
+    position: absolute;
+    width: 603px;
+    height: 265px;
+    left: 25px;
+    top: 220px;
+    border-radius: 89px
+}
+
+.nanimales2{
+    position: absolute;
+    width: 438px;
+    height: 41px;
+    left: 120px;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+}

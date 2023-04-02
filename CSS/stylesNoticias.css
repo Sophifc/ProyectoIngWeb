@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background: linear-gradient(#0050B2,#585bf0,#84B6F4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A7E9AF;
+    padding: 10px;
+    height: 75px;
+    align-items: center;
+}
+
+.Ing{
+    font-size: large;
+    position: fixed;
+    right: 100px;
+    top: 30px;
+}
+
+.Reg{
+    font-size: large;
+    position: fixed;
+    right: 35px;
+    top: 30px;
+}
+
+.Barra{
+    position: fixed;
+    font-size: x-large;
+    top: 45px;
+    left: 10px;
+    word-spacing: 120px;
+}
+
+ul{
+    list-style: none;
+}
+
+.Titulo{
+    position: fixed;
+    left: 50px;
+    top: 70px;
+    color: antiquewhite;
+    font-style: oblique;
+}
+
+.Cuadro1{
+    position: absolute;
+    width: 640px;
+    height: 550px;
+    left: 850px;
+    top: 150px;
+    background: linear-gradient(180deg, #D2E575 0%, #EFF9BF 100%);
+}
+
+.descripcion{
+    position: absolute;
+    width: 560px;
+    height: 62px;
+    left: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
+}
+
+.imagen1{
+    position: absolute;
+    width: 725px;
+    height: 535px;
+    right: 725px;
+    border-radius: 72px;
+}
