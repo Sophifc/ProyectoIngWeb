@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    background: linear-gradient(#0050B2,#585bf0,#84B6F4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A7E9AF;
+    padding: 10px;
+    height: 75px;
+    align-items: center;
+    
+}
+
+
+a{
+    text-decoration:  none;
+}
+
+ul{
+    list-style: none;
+}
+
+.TITULO{
+    position: fixed;
+    left: 50px;
+    top: 70px;
+    color: antiquewhite;
+    font-style: oblique;
+    
+}
+
+.CUADRO1{
+    position: fixed;
+    left: 50px;
+    top: 160px;
+    height: 220px;
+    width: 670px;
+    background: linear-gradient(#A7E9AF,#a0f0a8,#EFF9BF);
+}
+
+.IMAGEN1{
+    position: fixed;
+    height: 200px;
+    width: 240px;
+    top: 300px;
+    left: 20px;
+    border-radius: 20%;
+}
+
+
+.ELIPSE{
+    position: fixed;
+    left: 60px;
+    top: 515px;
+    height: 100px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: #EFF9BF;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.IMAGEN4{
+    position: fixed;
+    left: 345px;
+    top: 450px;
+    height: 100px;
+    width: 200px;
+}
+
+.CUADRO2{
+    position: fixed;
+    left: 900px;
+    top: 170px;
+    height: 350px;
+    width: 400px;
+    background: linear-gradient(#A7E9AF,#a0f0a8,#EFF9BF);
+}
+
+.IMAGEN2{
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    right: 10px;
+    top: 120px;
+    border-radius: 20%;
+}
+
+.IMAGEN3{
+    position: fixed;
+    height: 170px;
+    width: 300px;
+    top:430px;
+    right: 400px;
+    border-radius: 50%;
+}
