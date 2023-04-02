@@ -1,0 +1,158 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    min-width: 100vh;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    align-items: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin-right: 5px;
+    margin-left: 25px;
+    color: black;
+}
+
+.navegador{
+    display: flex;
+    list-style: none;
+}
+
+.navegador a{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+}
+
+.usuario a{
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.desplegable {
+    display: none;
+}
+
+.navegador li:hover .desplegable {
+    display: block;
+    position: absolute;
+    background-color: #A7E9AF;
+}
+
+/*------------------------------SECCION NOTICIAS--------------------------------------*/
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+.noticia{
+    font-size: 16px;
+    min-height: 450px;
+    color:white;
+    background: url(../IMAGES/pinguino.jpeg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+}
+
+.noticia .titulo{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.boton{
+    background: red;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    color:white;
+    font-size: 18px;
+}
+
+.noticia .descripcion{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+/*----------------ECOSISTEMAS--------------------------*/
+
+.ecosistemaImg{
+    background: url(../IMAGES/marino.jpg);
+    background-size: cover;
+}
+
+.ecosistemaImg2{
+    background: url(../IMAGES/desierto.jpg);
+    background-size: cover;
+}
+
+.ecosistema{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*----------------FOOTER-------------------------------*/
+
+footer{
+    background-color: #A7E9AF;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer ul{
+    list-style: none;    
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contacto{
+    width: 50%;
+    padding: 0 75px;
+}
+
+.footer-contacto h4{
+    font-size: 20px;
+    border-bottom: 5px solid black;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.footer-indice{
+    font-size: 18px;
+    margin-bottom: 20px;
+}

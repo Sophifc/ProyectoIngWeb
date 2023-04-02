@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    background: linear-gradient(#0050B2,#585bf0,#84B6F4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    align-items: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin-right: 5px;
+    margin-left: 25px;
+    color: black;
+}
+
+.navegador{
+    display: flex;
+    list-style: none;
+}
+
+.navegador a{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+}
+
+.usuario a{
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.desplegable {
+    display: none;
+}
+
+.navegador li:hover .desplegable {
+    display: block;
+    position: absolute;
+    background-color: #A7E9AF;
+}
+
+.Titulo{
+    position: fixed;
+    left: 50px;
+    top: 70px;
+    color: antiquewhite;
+    font-style: oblique;
+}
+
+.Eclipse{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 280px;
+    top: 180px;
+    background: #EFF9BF;
+    transform: rotate(2.42deg);
+    border-radius: 100%;
+}
+
+.imagen1{
+    position: absolute;
+    width: 590px;
+    height: 350px;
+    left: 30px;
+    top: 350px;
+    border-radius: 90px;
+}
+
+.globo{
+    position: absolute;
+    width: 400px;
+    height: 121px;
+    left: 310px;
+    top: 190px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    color: black;
+}
+
+.Triangulo{
+    position: absolute;
+    width: 56.51px;
+    height: 281.35px;
+    left: 500px;
+    top: 280px;
+    background: #EFF9BF;
+    transform: rotate(-150deg);
+}
+
+.imagen2{
+    position: absolute;
+    width: 290px;
+    height: 149.91px;
+    left: 640px;
+    top: 400px;
+    transform: matrix(-0.77, 0.64, 0.64, 0.77, 0, 0);
+}
+
+.cuadro{
+    position: absolute;
+    width: 550px;
+    height: 510px;
+    left: 950px;
+    top: 185px;
+    background: linear-gradient(180deg, #D2E575 0%, #EFF9BF 100%);
+}
+
+.descripcion{
+    position: absolute;
+    width: 458px;
+    height: 96px;
+    left: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: black;
+}
+
+.cuadro2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 510px;
+    height: 340px;
+    left: 20px;
+    top: 150px;
+    background: white;
+    border: 1px #000000;
+}
+
+.cuadro3{
+    position: absolute;
+    width: 490px;
+    height: 320px;
+    left: 30px;
+    top: 160px;
+    background: #D9D9D9;
+}
+
