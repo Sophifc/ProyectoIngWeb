@@ -1,4 +1,5 @@
 # ProyectoIngWeb
+ANALISIS FUNCIONALIDADES:
 1.	Inicio de Sesión: El usuario podra iniciar sesion con una cuenta ya creada.
 2.	Registro: El usuario podra registrarse en la aplicacion web.
 3.	Página de inicio: Aquí se mostraran las disitan ventanas que se puede acceder, informacion relevante y los datos del sitio.
@@ -9,3 +10,7 @@
 8.	Seccion Animales en extinción: A diferencia de la otra aquí se mostrarían todos los animales que estén en peligro de extinción sin importar el ecosistema,se mostrara la información y también unos consejos de como cuidarlos.
 9.	Seccion de Noticias: Se mostraran diversas noticias creadas por los usuario.
 10.	Seccion Ayudanos: En este los usuarios podran agregar comentarios o aportes a la pagina como noticias(las cuales se publicaran en la seccion noticias) o informacion relevante.
+
+TENER EN CUENTA:
+De momento las interfaces Animal diario y animales en extincion no se encuentran conectadas en la barra superior de la pagina, solo la pagina Animales por ecosistemas en la palabra "Animales" y las demas paginas en su respectiva "palabra".
+Se planea conectar Animales en extincion en la seccion Animales, los animales por ecosistema conectar con su respectivo ecosistema solamente y Animal diario se conectara en la pagina de inicio
