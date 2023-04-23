@@ -3,13 +3,12 @@ body{
     background: linear-gradient(#0050B2,#585bf0,#84B6F4);
 }
 
-/* 
-*{
-    list-style: none;
-    text-decoration: none;
+.logo{
+    height: 5%;
+    width: 5%;
 }
 
-header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,86 +16,6 @@ header{
     background-color: #A7E9AF;
     margin: 0;
     padding: 0;
-}
-
-.logo{
-    align-items: center;
-    font-weight: 600;
-    font-size: 28px;
-    margin-right: 5px;
-    margin-left: 25px;
-    color: black;
-}
-
-.navegador{
-    display: flex;
-    list-style: none;
-}
-
-.navegador a{
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0 20px;
-    text-decoration: none;
-}
-
-.usuario{
-    display: flex;
-    align-items: center;
-}
-
-.usuario a{
-    margin-right: 25px;
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-}
-
-.desplegable {
-    display: none;
-}
-
-.navegador li:hover .desplegable {
-    display: block;
-    position: absolute;
-    background-color: #A7E9AF;
-}
-
-.ayuda{
-    display: flex;
-    list-style: none;
-    justify-content:space-around;
-}
-
-.TITULO{
-
-    height: 50px;
-    width: 350px;
-    background: linear-gradient(#A7E9AF,#8beccf,#84B6F4);
-}
-
-.CUADRO{
-    height: 100px;
-    width: 350px;
-    background: linear-gradient(#A7E9AF,#8beccf,#84B6F4);
-}
-
-
-.SUBTITULO{
-    font-size: xx-large;
-    height: 80px;
-    width: 350px;
-    background: linear-gradient(#A7E9AF,#8beccf,#84B6F4);
-}
-
-.CHECK{
-    font-size:x-large;
-} */
-
-.logo{
-    height: 5%;
-    width: 5%;
 }
 
 .row{
