@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: linear-gradient(#0050B2, #585bf0, #84B6F4);
+}
+.logo {
+  height: 5%;
+  width: 5%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #A7E9AF;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 3%;
+}
+.col {
+  margin: 1%;
+}
+h2 {
+  background: linear-gradient(#6ce27a, #A7E9AF);
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  border-end-end-radius: 30%;
+  border-top-left-radius: 30%;
+}
+.caja {
+  padding: 5%;
+}
+.caja2 {
+  padding: 1%;
+}
