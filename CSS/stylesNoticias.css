@@ -5,98 +5,16 @@ body{
     background-attachment: fixed;
 }
 
-*{
-    list-style: none;
-    text-decoration: none;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #A7E9AF;
-    margin: 0;
-    padding: 0;
-}
-
 .logo{
-    align-items: center;
-    font-weight: 600;
-    font-size: 28px;
-    margin-right: 5px;
-    margin-left: 25px;
-    color: black;
+    height: 5%;
+    width: 5%;
 }
 
-.navegador{
-    display: flex;
-    list-style: none;
+.row{
+    margin: 0.5%;
 }
 
-.navegador a{
-    color: black;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0 20px;
-    text-decoration: none;
+.card{
+    background-color: #EFF9BF;
 }
 
-.usuario{
-    display: flex;
-    align-items: center;
-}
-
-.usuario a{
-    margin-right: 25px;
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-}
-
-.desplegable {
-    display: none;
-}
-
-.navegador li:hover .desplegable {
-    display: block;
-    position: absolute;
-    background-color: #A7E9AF;
-}
-
-.Titulo{
-    position: fixed;
-    left: 50px;
-    top: 70px;
-    color: antiquewhite;
-    font-style: oblique;
-}
-
-.Cuadro1{
-    position: absolute;
-    width: 640px;
-    height: 550px;
-    left: 850px;
-    top: 150px;
-    background: linear-gradient(180deg, #D2E575 0%, #EFF9BF 100%);
-}
-
-.descripcion{
-    position: absolute;
-    width: 560px;
-    height: 62px;
-    left: 25px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    color: black;
-}
-
-.imagen1{
-    position: absolute;
-    width: 725px;
-    height: 535px;
-    right: 725px;
-    border-radius: 72px;
-}
