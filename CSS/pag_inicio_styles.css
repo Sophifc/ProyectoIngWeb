@@ -1,0 +1,85 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*-----------------------NUEVO CCS------------------------------------------*/
+
+body{
+    background-color: black;
+}
+
+.logo{
+    height: 5%;
+    width: 5%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item{
+    height: 30rem;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.imag{
+    background-image: url(/IMAGES/delfin.jpg);
+}
+
+.imag2{
+    background-image: url(/IMAGES/pinguino.jpg);
+}
+
+.imag5{
+    background-image: url(/IMAGES/tortuga.jpg);
+}
+
+.dimension{
+    height: 205px;
+    width: 100%;
+}
+
+.separador{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footer{
+    padding: 10px;
+    background-color: #A7E9AF;
+}
+
+.logo-footer{
+    padding-top: 15px;
+    height: 55%;
+    width: 55%;
+}
+
+.foooter{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.terminos{
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
