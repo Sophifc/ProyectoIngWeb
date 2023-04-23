@@ -10,6 +10,16 @@ body{
     width: 5%;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #A7E9AF;
+    margin: 0;
+    padding: 0;
+}
+
 .row{
     margin: 0.5%;
 
